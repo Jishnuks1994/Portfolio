@@ -1,0 +1,46 @@
+#intro    {
+    width: 100%;
+    background-color: rgba(12, 63, 139, 0.705);
+    color: white;
+
+}
+#firstDiv{
+    width: 70%;
+    padding-left: 10%;
+
+    
+}
+#secondDiv{
+    padding: 5%;
+
+}
+#hello{
+    font-size:300%;
+}
+#myname{
+    font-size: 500%;
+
+}
+#myImage{
+    width: 50%;
+    border-radius: 50%;
+}
+#about{
+    height: 300px;
+    padding: 10;
+    /* border: 1px solid black; */
+    background-color: white(230, 220, 231, 0.897);
+    color: rgba(5, 5, 99, 0.904);
+}
+#foot{
+        background-color: (152, 178, 216, 0.938);
+    color: ;
+    padding: 10%;
+}
+#last{
+        background-color: rgba(12, 63, 139, 0.705);
+    padding: 1%;
+    color: white;
+        padding-left: 5%;
+
+}
