@@ -17,8 +17,7 @@
 
 <body>
     <header>
-        <nav id="navbar-example2" class="navbar bg-primary-subtle px-3 mb-3">
-            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <nav id="navbar-example2" class="navbar bg-white px-3">
             <ul class="nav nav-pills">
                 <li class="nav-item">
                     <a class="nav-link" href="#scrollspyHeading1">About</a>
@@ -32,20 +31,19 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#scrollspyHeading4">Interests</a>
                 </li>
-                <!-- <li class="nav-item"   ><a class="nav-link" href="#scrollspyHeading5">Fifth</a></li> -->
             </ul>
         </nav>
     </header>
 
     <main>
 
-        <div class="container-fluid row" id="intro">
-            <div class="col-lg9" id="firstDiv">
+        <div class="container-fluid row m-0" id="intro">
+            <div class="col-lg9 col-md-9 col-sm-3" id="firstDiv">
                 <br><br><br><br><br><br><br><br><br>
                 <p id="hello">HELLO I'M</p>
                 <h1 id="myname">Jishnu K S</h1>
             </div>
-            <div class="col-lg-3" id="secondDiv">
+            <div class="col-lg-3 col-md-3 col-sm-3" id="secondDiv">
                 <img src="./images/Jishnuks1.jpg" alt="my image" id="myImage">
                 <h1>Jishnu K S</h1>
                 <p>B.com Finance</p>
@@ -59,7 +57,7 @@
         </div>
 
         <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
-            data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary container-fluid  rounded-2"
+            data-bs-smooth-scroll="true" class="scrollspy-example bg-body-secondary container-fluid  rounded-2 pt-1"
             tabindex="0">
             <div class="container align-content-center row" id="about">
                 <h4 id="scrollspyHeading1" class="ps-5">About</h4>
@@ -149,7 +147,7 @@
             <h4 id="scrollspyHeading3" class="py-4 ps-5">Skill & Language</h4>
             <h5 class="py-4 ps-5">WHAT I BRING TO THE TABLE</h5>
             <div class="container-fluid row ps-5">
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-3 col-sm-3">
                     <p>html</p>
                     <p>css</p>
                     <p>bootstrap</p>
@@ -161,7 +159,7 @@
                     <p>Tamil</p>
 
                 </div>
-                <div class="col-lg-9">
+                <div class="col-lg-9 col-md-9 col-sm-9">
                   
                     <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="80"
                         aria-valuemin="0" aria-valuemax="100">
@@ -216,16 +214,14 @@
                 </div>
 
             </div>
-            <h4 id="scrollspyHeading4"  class="py-4 ps-5">Interests</h4>
-            <h5 class="ps-5">OUT OF OFFICE</h5>
-            <p class="ps-5">Listening to Music</p>
-            <p class="ps-5">Reading</p>
-            <p class="ps-5">Playing Violin</p>
-            <p class="ps-5">Watching Youtube </p>
-
-
-            <!-- <h4 id="scrollspyHeading5">Fifth heading</h4>
-            <p>...</p> -->
+ <div class="pb-2 py-4 ps-5">
+                <h4 id="scrollspyHeading4" >Interests</h4>
+                <h5 >OUT OF OFFICE</h5>
+                <p >Listening to Music</p>
+                <p>Reading</p>
+                <p>Playing Violin</p>
+                <p>Watching Youtube </p>
+ </div>
         </div>
     </main>
 <footer>
