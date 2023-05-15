@@ -19,7 +19,6 @@
 }
 #myname{
     font-size: 500%;
-
 }
 #myImage{
     width: 50%;
@@ -31,9 +30,10 @@
     color: rgba(5, 5, 99, 0.904);
 }
 #foot{
-        background-color: (152, 178, 216, 0.938);
-    color: ;
+        background-color: white;
+    color: #007bff  ;
     padding: 10%;
+    
 }
 #last{
         background-color: rgba(12, 63, 139, 0.705);
@@ -41,4 +41,36 @@
     color: white;
         padding-left: 5%;
 
+}
+@media(max-width:700px){
+    #hello{
+        font-size:200%;
+    }
+    #myname{
+        font-size:400%;
+    }
+}
+@media(max-width:550px){
+    #hello{
+        font-size:100%;
+    }
+    #myname{
+        font-size:300%;
+    }
+}
+@media(max-width:425px){
+    #hello{
+        font-size:95%;
+    }
+    #myname{
+        font-size:250%;
+    }
+}
+@media(max-width:363px){
+    #hello{
+        font-size:95%;
+    }
+    #myname{
+        font-size:200%;
+    }
 }
