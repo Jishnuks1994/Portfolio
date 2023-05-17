@@ -16,9 +16,11 @@
 }
 #hello{
     font-size:300%;
+    font-family: 'Dancing Script', cursive;
 }
 #myname{
     font-size: 500%;
+    font-family: 'Smokum', cursive;
 }
 #myImage{
     width: 50%;
