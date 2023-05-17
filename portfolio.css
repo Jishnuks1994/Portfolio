@@ -1,78 +1,68 @@
-#intro    {
+#intro {
     width: 100%;
     background-color: rgba(12, 63, 139, 0.705);
     color: white;
+    /* border: 1px solid black; */
 
 }
-#firstDiv{
-    width: 70%;
+
+#firstDiv {
     padding-left: 10%;
+    padding-top: 15%;
+    padding-bottom: 5%;
+    /* border: 1px solid black; */
 
-    
-}
-#secondDiv{
-    padding: 5%;
 
 }
-#hello{
-    font-size:300%;
+
+#secondDiv {
+    padding-top: 5%;
+}
+
+#hello {
+    font-size: 300%;
     font-family: 'Dancing Script', cursive;
 }
-#myname{
+
+#myname {
     font-size: 500%;
     font-family: 'Smokum', cursive;
 }
-#myImage{
+
+#myImage {
     width: 50%;
     border-radius: 50%;
 }
-#about{
-    padding: 10;
-    background-color: white(230, 220, 231, 0.897);
+
+#full {
+    font-family: 'Anton', sans-serif;
+}
+
+#about {
     color: rgba(5, 5, 99, 0.904);
 }
-#foot{
-        background-color: white;
-    color: #007bff  ;
-    padding: 10%;
-    
+#Education {
+    color: rgba(5, 5, 99, 0.904);
+}#Skill {
+    color: rgba(5, 5, 99, 0.904);
+}#Interests {
+    color: rgba(5, 5, 99, 0.904);
+}#projects {
+    color: rgba(5, 5, 99, 0.904);
 }
-#last{
-        background-color: rgba(12, 63, 139, 0.705);
-    padding: 1%;
-    color: white;
-        padding-left: 5%;
+
+
+#foot {
+    background-color: white;
+    color: #007bff;
+    padding: 10%;
 
 }
-@media(max-width:700px){
-    #hello{
-        font-size:200%;
-    }
-    #myname{
-        font-size:400%;
-    }
-}
-@media(max-width:550px){
-    #hello{
-        font-size:100%;
-    }
-    #myname{
-        font-size:300%;
-    }
-}
-@media(max-width:425px){
-    #hello{
-        font-size:95%;
-    }
-    #myname{
-        font-size:250%;
-    }
-}
-@media(max-width:363px){
-    #hello{
-        font-size:95%;
-    }
-    #myname{
-        font-size:200%;
-    }
+
+#last {
+    background-color: rgba(12, 63, 139, 0.705);
+    padding: 1%;
+    color: white;
+    padding-left: 5%;
+
 }
