@@ -58,7 +58,7 @@ const Header = () => {
             {/* Mobile Menu */}
             <div
                 id="mobile-menu"
-                className="sm:hidden hidden flex flex-col items-center bg-white shadow-inner py-4 px-6 space-y-4 transition-all duration-300"
+                className="sm:hidden flex flex-col items-center bg-white shadow-inner py-4 px-6 space-y-4 transition-all duration-300"
             >
                 {['home', 'about', 'experience', 'projects', 'contact'].map((item) => (
                     <button
